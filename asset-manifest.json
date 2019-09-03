@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/npm-package-download-counter/static/css/main.2cce8147.chunk.css",
-    "main.js": "/npm-package-download-counter/static/js/main.a606cdbd.chunk.js",
-    "main.js.map": "/npm-package-download-counter/static/js/main.a606cdbd.chunk.js.map",
+    "main.css": "/npm-package-download-counter/static/css/main.8b201735.chunk.css",
+    "main.js": "/npm-package-download-counter/static/js/main.c6ec81a2.chunk.js",
+    "main.js.map": "/npm-package-download-counter/static/js/main.c6ec81a2.chunk.js.map",
     "runtime~main.js": "/npm-package-download-counter/static/js/runtime~main.f7cfd9c2.js",
     "runtime~main.js.map": "/npm-package-download-counter/static/js/runtime~main.f7cfd9c2.js.map",
-    "static/js/2.dd9936ef.chunk.js": "/npm-package-download-counter/static/js/2.dd9936ef.chunk.js",
-    "static/js/2.dd9936ef.chunk.js.map": "/npm-package-download-counter/static/js/2.dd9936ef.chunk.js.map",
+    "static/css/2.de652420.chunk.css": "/npm-package-download-counter/static/css/2.de652420.chunk.css",
+    "static/js/2.843f0608.chunk.js": "/npm-package-download-counter/static/js/2.843f0608.chunk.js",
+    "static/js/2.843f0608.chunk.js.map": "/npm-package-download-counter/static/js/2.843f0608.chunk.js.map",
     "index.html": "/npm-package-download-counter/index.html",
-    "precache-manifest.19959ec2297ea44a1407c4b0dc4b7292.js": "/npm-package-download-counter/precache-manifest.19959ec2297ea44a1407c4b0dc4b7292.js",
+    "precache-manifest.84f02715647b122ecbef95a935cf210a.js": "/npm-package-download-counter/precache-manifest.84f02715647b122ecbef95a935cf210a.js",
     "service-worker.js": "/npm-package-download-counter/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/npm-package-download-counter/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/npm-package-download-counter/static/media/logo.5d5d9eef.svg"
+    "static/css/2.de652420.chunk.css.map": "/npm-package-download-counter/static/css/2.de652420.chunk.css.map",
+    "static/css/main.8b201735.chunk.css.map": "/npm-package-download-counter/static/css/main.8b201735.chunk.css.map",
+    "static/media/index.css": "/npm-package-download-counter/static/media/background.0368a030.jpg"
   }
 }
