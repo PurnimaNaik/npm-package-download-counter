@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/npm-package-download-counter/static/css/main.8b201735.chunk.css",
+    "main.css": "/npm-package-download-counter/static/css/main.330ef761.chunk.css",
     "main.js": "/npm-package-download-counter/static/js/main.c6ec81a2.chunk.js",
     "main.js.map": "/npm-package-download-counter/static/js/main.c6ec81a2.chunk.js.map",
     "runtime~main.js": "/npm-package-download-counter/static/js/runtime~main.f7cfd9c2.js",
@@ -9,10 +9,10 @@
     "static/js/2.843f0608.chunk.js": "/npm-package-download-counter/static/js/2.843f0608.chunk.js",
     "static/js/2.843f0608.chunk.js.map": "/npm-package-download-counter/static/js/2.843f0608.chunk.js.map",
     "index.html": "/npm-package-download-counter/index.html",
-    "precache-manifest.84f02715647b122ecbef95a935cf210a.js": "/npm-package-download-counter/precache-manifest.84f02715647b122ecbef95a935cf210a.js",
+    "precache-manifest.fe3bcf80d871a79a0bb3b1cc84af7dc2.js": "/npm-package-download-counter/precache-manifest.fe3bcf80d871a79a0bb3b1cc84af7dc2.js",
     "service-worker.js": "/npm-package-download-counter/service-worker.js",
     "static/css/2.de652420.chunk.css.map": "/npm-package-download-counter/static/css/2.de652420.chunk.css.map",
-    "static/css/main.8b201735.chunk.css.map": "/npm-package-download-counter/static/css/main.8b201735.chunk.css.map",
+    "static/css/main.330ef761.chunk.css.map": "/npm-package-download-counter/static/css/main.330ef761.chunk.css.map",
     "static/media/index.css": "/npm-package-download-counter/static/media/background.0368a030.jpg"
   }
 }
