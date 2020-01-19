@@ -21,9 +21,6 @@ class App extends React.Component {
       errorMessageInState:'',
     };
   }
-  componentDidMount() {
-    // this.retrieveCount();
-  }
 
   retrieveCount() {
     var request = new XMLHttpRequest();
