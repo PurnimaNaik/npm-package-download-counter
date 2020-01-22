@@ -163,10 +163,6 @@ class App extends React.Component {
               </p>
               <p className="instruction">downloads</p>
 
-              {/* <p className="instruction">
-              times from {this.state.startDate.toLocaleDateString()} to{' '}
-              {this.state.endDate.toLocaleDateString()}
-            </p> */}
             </div>
           ) : null}
         </div>
