@@ -18,7 +18,7 @@ class App extends React.Component {
       startDate: new Date(),
       endDate: new Date(),
       responseInState: '',
-      errorMessageInState:'',
+      errorMessageInState: '',
     };
   }
 
@@ -106,8 +106,11 @@ class App extends React.Component {
               className="input"
               placeholder="Enter package name"
               onChange={evt => {
-                this.setState({ packageNameInState: evt.target.value,errorMessageInState:'',
-                responseInState:'', });
+                this.setState({
+                  packageNameInState: evt.target.value,
+                  errorMessageInState: '',
+                  responseInState: '',
+                });
               }}
             />
             <p className="dateRangeInstruction">Select date range</p>
@@ -149,20 +152,19 @@ class App extends React.Component {
               Get Count
             </button>
           </div>
-{this.state.errorMessageInState!='' ?(
-  <p className="error">Error : {this.state.errorMessageInState}.</p>
-):null}
+          {this.state.errorMessageInState != '' ? (
+            <p className="error">Error : {this.state.errorMessageInState}.</p>
+          ) : null}
 
-
-          {this.state.responseInState && this.state.errorMessageInState=='' && this.state.packageNameInState ? (
+          {this.state.responseInState &&
+          this.state.errorMessageInState == '' &&
+          this.state.packageNameInState ? (
             <div className="resultsContainer">
-              {/* <p>Results</p> */}
-              
+
               <p className="downloadCount">
                 {this.state.responseInState.downloads}
               </p>
               <p className="instruction">downloads</p>
-
             </div>
           ) : null}
         </div>
@@ -177,7 +179,6 @@ class App extends React.Component {
 }
 
 render(<App />, window.document.getElementById('root'));
-
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 
