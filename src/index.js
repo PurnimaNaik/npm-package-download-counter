@@ -68,6 +68,10 @@ class App extends React.Component {
   }
 
   onSubmit(e) {
+    this.setState({
+      errorMessageInState: '',
+      responseInState: '...',
+    });
     this.retrieveCount();
   }
 
