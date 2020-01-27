@@ -164,13 +164,16 @@ class App extends React.Component {
           this.state.errorMessageInState == '' &&
           this.state.packageNameInState ? (
             <div className="resultsContainer">
-
               <p className="downloadCount">
                 {this.state.responseInState.downloads}
               </p>
               <p className="instruction">downloads</p>
             </div>
-          ) : null}
+          ) : (
+            <div className="resultsContainer">
+              <p className="downloadCount">{this.state.responseInState}</p>
+            </div>
+          )}
         </div>
         <div className="disclaimerContainer">
           <p className="APIDisclaimer">
