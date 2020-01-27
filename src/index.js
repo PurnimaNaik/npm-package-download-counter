@@ -1,13 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-// import App from './App';
-import * as serviceWorker from './serviceWorker';
-
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { render } from 'react-dom';
-// import style from '../styles/index.css';
+import style from '../styles/index.css';
 
 class App extends React.Component {
   constructor() {
@@ -20,6 +15,9 @@ class App extends React.Component {
       responseInState: '',
       errorMessageInState: '',
     };
+  }
+  componentDidMount() {
+    // this.retrieveCount();
   }
 
   retrieveCount() {
@@ -160,20 +158,27 @@ class App extends React.Component {
             <p className="error">Error : {this.state.errorMessageInState}.</p>
           ) : null}
 
-          {this.state.responseInState &&
+          {this.state.responseInState.downloads &&
           this.state.errorMessageInState == '' &&
           this.state.packageNameInState ? (
             <div className="resultsContainer">
+              
               <p className="downloadCount">
                 {this.state.responseInState.downloads}
               </p>
               <p className="instruction">downloads</p>
+
             </div>
           ) : (
-            <div className="resultsContainer">
-              <p className="downloadCount">{this.state.responseInState}</p>
-            </div>
-          )}
+          <div className="resultsContainer">
+
+          <p className="downloadCount">
+            {this.state.responseInState}
+          </p>
+          
+        </div>
+          )
+          }
         </div>
         <div className="disclaimerContainer">
           <p className="APIDisclaimer">
@@ -185,11 +190,4 @@ class App extends React.Component {
   }
 }
 
-render(<App />, window.document.getElementById('root'));
-
-// ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+render(<App />, window.document.getElementById('app'));
